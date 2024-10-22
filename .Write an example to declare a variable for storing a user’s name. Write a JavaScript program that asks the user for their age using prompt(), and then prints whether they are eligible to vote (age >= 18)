@@ -1,1 +1,21 @@
+Here's an example of a JavaScript program that declares a variable to store a user's name, asks for their age using prompt(), and then checks if they are eligible to vote:
+// Declare a variable to store the user's name
+let userName = prompt("Please enter your name:");
 
+// Ask the user for their age
+let userAge = prompt("Hello " + userName + ", please enter your age:");
+
+// Convert the age to a number
+userAge = Number(userAge);
+
+// Check if the user is eligible to vote
+if (userAge >= 18) {
+    console.log(userName + ", you are eligible to vote!");
+} else {
+    console.log(userName + ", you are not eligible to vote yet.");
+}
+The program prompts the user for their name and stores it in the userName variable.
+It then prompts the user for their age and stores that in userAge.
+The age is converted to a number to allow for comparison.
+Finally, it checks if the age is 18 or older and prints a message to the console accordingly.
+You can run this code in the console of a web browser.
