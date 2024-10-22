@@ -1,20 +1,17 @@
-Here’s a JavaScript program that calculates and prints the factorial of a given number using a for loop:
-
 javascript
-// Function to calculate the factorial of a number
 function factorial(n) {
-    let result = 1; // Initialize result
+    let result = 1; 
 
-    // Use a for loop to calculate factorial
+    
     for (let i = 1; i <= n; i++) {
-        result *= i; // Multiply result by i
+        result *= i; 
     }
 
-    return result; // Return the final result
+    return result;
 }
 
-// Example usage
-let number = 5; // Change this number to calculate a different factorial
+
+let number = 5; 
 let fact = factorial(number);
 console.log("The factorial of " + number + " is: " + fact);
 Explanation:
