@@ -1,6 +1,1 @@
-Here’s a simple JavaScript program that prints "Hello, World!" to the console:
-
-javascript
-// Print "Hello, World!" to the console
 console.log("Hello, World!");
-You can run this code in a web browser's console or in a Node.js environment. Just copy and paste it, and you'll see the message displayed!
