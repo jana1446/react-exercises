@@ -1,21 +1,7 @@
-Here's a simple JavaScript function that takes two numbers as arguments and returns their sum:
-
-javascript
-// Function to add two numbers
 function addNumbers(a, b) {
     return a + b;
 }
-
-// Example usage
 let num1 = 5;
 let num2 = 10;
 let sum = addNumbers(num1, num2);
 console.log("The sum of " + num1 + " and " + num2 + " is: " + sum);
-Explanation:
-Function Declaration: The function addNumbers(a, b) takes two parameters, a and b.
-Return Statement: It returns the sum of a and b.
-Example Usage: The function is called with two example numbers, and the result is logged to the console.
-You can change num1 and num2 to test with different values!
-
-
-
