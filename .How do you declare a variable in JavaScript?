@@ -3,7 +3,6 @@ In JavaScript, you can declare a variable using three keywords: var, let, and co
 Using var:
 
 javascript
-Copy code
 var myVariable = 10;
 Using let:
 
@@ -13,7 +12,6 @@ let myVariable = 20;
 Using const:
 
 javascript
-Copy code
 const myVariable = 30;
 var is function-scoped and can be redeclared.
 let is block-scoped and cannot be redeclared in the same scope.
