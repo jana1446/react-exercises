@@ -1,1 +1,30 @@
+Here’s a JavaScript program that calculates and prints the factorial of a given number using a for loop:
+
+javascript
+// Function to calculate the factorial of a number
+function factorial(n) {
+    let result = 1; // Initialize result
+
+    // Use a for loop to calculate factorial
+    for (let i = 1; i <= n; i++) {
+        result *= i; // Multiply result by i
+    }
+
+    return result; // Return the final result
+}
+
+// Example usage
+let number = 5; // Change this number to calculate a different factorial
+let fact = factorial(number);
+console.log("The factorial of " + number + " is: " + fact);
+Explanation:
+Function Declaration: The factorial(n) function takes a number n as input.
+Initialization: A variable result is initialized to 1.
+For Loop: The loop runs from 1 to n, multiplying result by each number i.
+Return Statement: After the loop, the final result is returned.
+Example Usage: The program calculates the factorial of 5 (you can change this number) and prints it to the console.
+You can run this code in a web browser console or any JavaScript environment!
+
+
+
 
